@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Contact Form</title>
+</head>
+<body>
+  <h2>Student Contact Form</h2>
+  <form action="#" method="post">
+
+    <label for="fullname">Student Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+
+    <label for="email">School Email Address:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Contact Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone"><br><br>
+
+    <p>Current Level of Study:</p>
+    <input type="radio" id="undergraduate" name="level" value="undergraduate" checked>
+    <label for="undergraduate">Undergraduate</label><br>
+    <input type="radio" id="postgraduate" name="level" value="postgraduate">
+    <label for="postgraduate">Postgraduate</label><br><br>
+
+    <p>Areas of Academic Interest:</p>
+    <input type="checkbox" id="cs" name="interest" value="cs">
+    <label for="cs">Computer Science</label><br>
+    <input type="checkbox" id="math" name="interest" value="math">
+    <label for="math">Mathematics</label><br>
+    <input type="checkbox" id="eng" name="interest" value="eng">
+    <label for="eng">Engineering</label><br><br>
+    <label for="faculty">Faculty:</label><br>
+    <select id="faculty" name="faculty">
+      <option value="">--Select Faculty--</option>
+      <option value="science">Faculty of Science</option>
+      <option value="engineering">Faculty of Engineering</option>
+      <option value="arts">Faculty of Arts</option>
+      <option value="education">Faculty of Education</option>
+    </select><br><br>
+
+    <label for="message">Additional Comments:</label><br>
+    <textarea id="message" name="message" rows="5" cols="30" placeholder="Write your message here..."></textarea><br><br>
+
+    <button type="submit">Submit Form</button>
+
+  </form>
+</body>
+</html>
