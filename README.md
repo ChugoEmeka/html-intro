@@ -1,2 +1,2 @@
 # html-intro
-This repo is a for practice purpose, on my Genesys Upskill program
+This repo is for practice purposes, as part of my Genesys Upskill program.
